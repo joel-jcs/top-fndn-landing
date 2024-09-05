@@ -7,52 +7,68 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div>
-            <img id="logo-img">Test</img>
+    <section id="hero-section">
+        <div id="navbar" class="content">
+            <span id="header-logo">HEADER LOGO</span>
             <div id="link-container">
-                <a>Link1</a>
-                <a>Link2</a>
-                <a>Link3</a>
+                <a href="#info-section">Link1</a>
+                <a href="#quote-section">Link2</a>
+                <a href="#cta-section">Link3</a>
             </div>
         </div>
-        <div id="hero">
-            <div id="desc-cta">
-                <h1>This site is dope!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quia.</p>
+        <div id="hero" class="content">
+            <div id="hero-content">
+                <h1>This website is awesome!</h1>
+                <p id="hero-cta-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
                 <button>Get Started</button>
             </div>
-            <img id="hero-img">Test</img>
-        </div>
-    </header>
-    <section id="info-section">
-        <h2>Random Product Info</h2>
-        <div class="info-box">
-            <div class="info-square"></div>
-            <p class="info-text">Placeholder: This some subtext under an image.</p>
-        </div>
-        <div class="info-box">
-            <div class="info-square"></div>
-            <p class="info-text">Placeholder: This some subtext under an image.</p>
-        </div>
-        <div class="info-box">
-            <div class="info-square"></div>
-            <p class="info-text">Placeholder: This some subtext under an image.</p>
-        </div>
-        <div class="info-box">
-            <div class="info-square"></div>
-            <p class="info-text">Placeholder: This some subtext under an image.</p>
+            <div id="hero-img">Placeholder image</div>
         </div>
     </section>
+    
+    <section id="info-section">
+        <div id="info-box-content" class="content">
+            <h2>Random Product Info</h2>
+            <div id="info-box-container">
+                <div class="info-box">
+                    <div class="info-square"></div>
+                    <p class="info-text">Placeholder: This some subtext under an image.</p>
+                </div>
+                <div class="info-box">
+                    <div class="info-square"></div>
+                    <p class="info-text">Placeholder: This some subtext under an image.</p>
+                </div>
+                <div class="info-box">
+                    <div class="info-square"></div>
+                    <p class="info-text">Placeholder: This some subtext under an image.</p>
+                </div>
+                <div class="info-box">
+                    <div class="info-square"></div>
+                    <p class="info-text">Placeholder: This some subtext under an image.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="quote-section">
-        <p id="quote">Quote</p>
-        <span id="quote-author">Placeholder</span>
+        <div id="quote-content" class="content">
+            <p id="quote">This is an inspiring quote by a random person. 
+                Maybe it's just filling up space, or maybe people actually read it.
+                Who knows? All I know is that it looks nice.
+            </p>
+            <span id="quote-author">-Thor, God of Thunder</span>
+        </div>
     </section>
     <section id="cta-section">
-        <h3 id="cta-heading">Call to action! It's time!</h3>
-        <p id="cta-text">Sign up for our product by clicking the button on the left!</p>
-        <button id="cta-btn">Sign up</button>
+        <div id="cta-content">
+            <div id="cta-text-container">
+                <h3 id="cta-heading">Call to action! It's time!</h3>
+                <p id="cta-text">Sign up for our product by clicking the button on the right!</p>
+            </div>
+            <button id="cta-btn">Sign up</button>
+        </div>
     </section>
+
     <footer>
         <p>Copyright - The Odin Project 2024</p>
     </footer>
